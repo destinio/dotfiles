@@ -31,3 +31,13 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/macos
+
+dotfiles/vim/autoload/*
+dotfiles/vim/backup/*
+dotfiles/vim/bundle/*
+dotfiles/vim/bundle/vundle
+dotfiles/vim/plugged/*
+dotfiles/vim/tmp/*
+dotfiles/vim/undo/*
+
+.netrwhist

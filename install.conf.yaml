@@ -1,0 +1,16 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- link:
+    ~/.vim: dotfiles/vim
+    ~/.vimrc: dotfiles/vimrc
+    ~/.editorconfig: dotfiles/editorconfig
+    ~/.prettierrc.json: dotfiles/prettierrc.json
+    ~/.zshrc: dotfiles/zshrc
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
