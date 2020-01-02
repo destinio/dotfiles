@@ -8,7 +8,8 @@ export ZSH="/Users/dlee/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME=powerlevel10k/powerlevel10k
+#ZSH_THEME="robbyrussell"
 setopt auto_menu
 
 # Set list of themes to pick from when loading at random
@@ -99,19 +100,5 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-alias ll='ls -al'
-alias ls='colorls --sd -A'
-alias lld='ls -d */'
-alias llf='ls -p | grep -v / '
-alias ws='web_search google '
-alias nodemon='nodemon'
-alias webinit='touch index.html main.js style.css'
-alias o='open'
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases

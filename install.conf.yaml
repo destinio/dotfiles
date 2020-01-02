@@ -11,6 +11,7 @@
     ~/.editorconfig: dotfiles/editorconfig
     ~/.prettierrc.json: dotfiles/prettierrc.json
     ~/.zshrc: dotfiles/zshrc
+    ~/.aliases: dotfiles/aliases
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
