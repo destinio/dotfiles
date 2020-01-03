@@ -1,0 +1,13 @@
+[user]
+  name = Destin Lee
+  email = dleeinc@gmail.com
+
+[color]
+ui = true
+
+[alias]
+# http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
+st = status
+ci = commit
+br = branch
+co = checkout
