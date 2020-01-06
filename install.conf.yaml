@@ -14,7 +14,6 @@
     ~/.aliases: dotfiles/aliases
     ~/.gitconfig: dotfiles/gitconfig
     ~/.p10k.zsh: dotfiles/p10k.zsh
-    ~/.eslintrc: dotfiles/eslintrc
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
