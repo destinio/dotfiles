@@ -105,3 +105,13 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# FUNCTIONS
+newSite() {
+    if [ $# -eq 0 ]; then
+        git clone git@github.com:destinio/quick-start.git
+    else
+        git clone git@github.com:destinio/quick-start.git $1
+    fi
+}
