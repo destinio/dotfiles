@@ -1,6 +1,6 @@
 alias ll='ls -al'
 alias ls='colorls --sd -A'
-alias lld='ls -d */'
+alias lld='ls -ld'
 alias llf='ls -p | grep -v / '
 alias ws='web_search google '
 alias nodemon='nodemon'

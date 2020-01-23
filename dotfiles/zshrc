@@ -111,7 +111,21 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 newSite() {
     if [ $# -eq 0 ]; then
         git clone git@github.com:destinio/quick-start.git
+        cd quick-start
+        echo "Deleting .git dir..."
+        rm -rf .git
+        npm i
+        echo "Opening quick-start in VSCode"
+        code ./
+        cd ..
     else
         git clone git@github.com:destinio/quick-start.git $1
+        cd $1
+        echo "Deleting .git dir..."
+        rm -rf .git
+        npm i
+        echo "Opening $1 in VSCode"
+        code ./
+        cd ..
     fi
 }
