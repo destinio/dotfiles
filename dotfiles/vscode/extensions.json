@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    "andys8.jest-snippets",
+    "bierner.emojisense",
+    "blanu.vscode-styled-jsx",
+    "christian-kohler.path-intellisense",
+    "CoenraadS.bracket-pair-colorizer",
+    "Dart-Code.dart-code",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "dustinsanders.an-old-hope-theme-vscode",
+    "eamodio.gitlens",
+    "EQuimper.react-native-react-redux",
+    "esbenp.prettier-vscode",
+    "mrmlnc.vscode-duplicate",
+    "ms-azuretools.vscode-docker",
+    "ms-python.python",
+    "ms-vscode.atom-keybindings",
+    "msjsdiag.vscode-react-native",
+    "Orta.vscode-jest",
+    "redhat.java",
+    "ritwickdey.LiveServer",
+    "skyran.js-jsx-snippets",
+    "streetsidesoftware.code-spell-checker",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "vscode-icons-team.vscode-icons",
+    "xabikos.JavaScriptSnippets",
+    "Zignd.html-css-class-completion"
+  ]
+}
