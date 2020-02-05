@@ -85,6 +85,30 @@ newSite() {
     fi
 }
 
+newServer() {
+    if [ $# -eq 0 ]; then
+        git clone git@github.com:destinio/quick-start-express.git
+        cd quick-start-express
+        echo "${green}deleting .git dir...${nc}"
+        rm -rf .git
+        echo "${green}installing dependencies${nc}"
+        npm i
+        echo "${green}opening $1 in vscode...${nc}"
+        code ./
+        cd ..
+    else
+        git clone git@github.com:destinio/quick-start-express.git $1
+        cd $1
+        echo "${green}deleting .git dir...${nc}"
+        rm -rf .git
+        echo "${green}installing dependencies${nc}"
+        npm i
+        echo "${green}opening $1 in vscode...${nc}"
+        code ./
+        cd ..
+    fi
+}
+
 man() {
     env \
     LESS_TERMCAP_mb=$(printf "\e[1;31m") \
